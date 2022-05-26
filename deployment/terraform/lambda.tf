@@ -98,6 +98,26 @@ resource "aws_lambda_function" "ap-southeast-2" {
   }
 }
 
+resource "aws_lambda_function" "ap-southeast-3" {
+  count    = contains(var.lambda_regions, "ap-southeast-3") ? 1 : 0
+  provider = aws.ap-southeast-3
+
+  filename      = "${path.module}/dummy.zip"
+  function_name = "${var.name}-${random_id.this.hex}"
+  handler       = "main"
+  role          = aws_iam_role.lambda.arn
+  runtime       = "go1.x"
+
+  tags = {
+    Name      = var.name
+    Workspace = terraform.workspace
+  }
+
+  lifecycle {
+    ignore_changes = [timeout]
+  }
+}
+
 resource "aws_lambda_function" "ca-central-1" {
   count    = contains(var.lambda_regions, "ca-central-1") ? 1 : 0
   provider = aws.ca-central-1
