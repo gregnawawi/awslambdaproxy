@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/dan-v/awslambdaproxy/pkg/server/publicip"
-	"github.com/dan-v/awslambdaproxy/pkg/server/publicip/awspublicip"
+	"github.com/gregnawawi/awslambdaproxy/pkg/server/publicip"
+	"github.com/gregnawawi/awslambdaproxy/pkg/server/publicip/awspublicip"
 	"github.com/sirupsen/logrus"
 )
 

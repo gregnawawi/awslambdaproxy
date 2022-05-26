@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/dan-v/awslambdaproxy/cmd/awslambdaproxy"
+	"github.com/gregnawawi/awslambdaproxy/cmd/awslambdaproxy"
 	"os"
 )
 

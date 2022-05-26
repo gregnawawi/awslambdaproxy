@@ -3,7 +3,7 @@ TARGET := awslambdaproxy
 VERSION := $(shell cat VERSION)
 OS := linux
 ARCH := amd64
-PACKAGE := github.com/dan-v/$(TARGET)
+PACKAGE := github.com/gregnawawi/$(TARGET)
 
 .PHONY: \
 	clean \

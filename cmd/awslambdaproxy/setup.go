@@ -3,7 +3,7 @@ package awslambdaproxy
 import (
 	"log"
 
-	"github.com/dan-v/awslambdaproxy/pkg/server"
+	"github.com/gregnawawi/awslambdaproxy/pkg/server"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

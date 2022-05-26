@@ -3,7 +3,7 @@ package awspublicip
 import (
 	"bytes"
 	"fmt"
-	"github.com/dan-v/awslambdaproxy/pkg/server/publicip"
+	"github.com/gregnawawi/awslambdaproxy/pkg/server/publicip"
 	"io/ioutil"
 	"net"
 	"net/http"

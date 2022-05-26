@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/dan-v/awslambdaproxy/pkg/server/publicip"
+	"github.com/gregnawawi/awslambdaproxy/pkg/server/publicip"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

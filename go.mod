@@ -1,4 +1,4 @@
-module github.com/dan-v/awslambdaproxy
+module github.com/gregnawawi/awslambdaproxy
 
 go 1.14
 
