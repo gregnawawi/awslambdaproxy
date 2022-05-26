@@ -3,8 +3,8 @@ module github.com/gregnawawi/awslambdaproxy
 go 1.14
 
 require (
-	github.com/aws/aws-lambda-go v1.16.0
-	github.com/aws/aws-sdk-go v1.30.9
+	github.com/aws/aws-lambda-go v1.32.0
+	github.com/aws/aws-sdk-go v1.44.22
 	github.com/axw/gocov v1.0.0 // indirect
 	github.com/ginuerzh/gost v0.0.0-20200414134316-6e46ac03c7a7
 	github.com/google/uuid v1.1.1
